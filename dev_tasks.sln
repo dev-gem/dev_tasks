@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94E69DF1-042C-41B9-ABFC-4ADC6E30D93D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		LICENSE = LICENSE
+		rakefile.rb = rakefile.rb
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{60B691AD-A15B-4850-848E-37038B939F95}"
+	ProjectSection(SolutionItems) = preProject
+		lib\dev_tasks.rb = lib\dev_tasks.rb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "spec", "spec", "{DDB4E277-665B-4E2F-B6E9-0547D13B45ED}"
+	ProjectSection(SolutionItems) = preProject
+		spec\dev_tasks_spec.rb = spec\dev_tasks_spec.rb
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60B691AD-A15B-4850-848E-37038B939F95} = {94E69DF1-042C-41B9-ABFC-4ADC6E30D93D}
+		{DDB4E277-665B-4E2F-B6E9-0547D13B45ED} = {94E69DF1-042C-41B9-ABFC-4ADC6E30D93D}
+	EndGlobalSection
+EndGlobal
