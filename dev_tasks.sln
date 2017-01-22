@@ -15,11 +15,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{60B691AD-A15B-4850-848E-37038B939F95}"
 	ProjectSection(SolutionItems) = preProject
 		lib\dev_tasks.rb = lib\dev_tasks.rb
+		lib\Tasks.rb = lib\Tasks.rb
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "spec", "spec", "{DDB4E277-665B-4E2F-B6E9-0547D13B45ED}"
 	ProjectSection(SolutionItems) = preProject
 		spec\dev_tasks_spec.rb = spec\dev_tasks_spec.rb
+		spec\Tasks_spec.rb = spec\Tasks_spec.rb
 	EndProjectSection
 EndProject
 Global
